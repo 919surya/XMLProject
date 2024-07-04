@@ -1,0 +1,29 @@
+
+
+<suite name="regression">
+
+	<test name="LoginTest">
+
+		<parameter name="username" value="demo@codefios.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="HeaderDashboardPage" value="Dashboard" />
+		<parameter name="HeaderNewCustomerPage" value="New Customer" />
+		<parameter name="fullName" value="Excel Project" />
+		<parameter name="companyName" value="Walgreen" />
+		<parameter name="email" value="abc@gmail.com" />
+		<parameter name="phone" value="a874321" />
+		<parameter name="address" value="777 Drive" />
+		<parameter name="city" value="Dallas" />
+		<parameter name="zipCode" value="a99900" />
+		<parameter name="country" value="United Kingdom" />
+		<parameter name="group" value="SQL" />
+
+		<classes>
+			<class name="test.LoginTest"/>
+			<class name="test.AddCustomerTest"/>
+
+		</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,15 @@
+<suite name="smoke">
+
+	<test name="LoginTest">
+
+		<parameter name="username" value="demo@codefios.com" />
+		<parameter name="password" value="abc123" />
+
+		<classes>
+			<class name="test.LoginTest"></class>
+
+		</classes>
+
+	</test>
+
+</suite>
